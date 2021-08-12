@@ -39,7 +39,6 @@ config_auto.h
 /include/tesseract/version.h
 
 # executables
-/tesseract
 /src/training/ambiguous_words
 /src/training/classifier_tester
 /src/training/cntraining
@@ -62,20 +61,8 @@ config_auto.h
 
 # ignore compilation files
 build/*
-/bin
 .deps
 .dirstamp
-/.libs
-*/.libs/*
-*/*/.deps/*
-*/*/.libs/*
-*.lo
-*.la
-*.o
-*.Plo
-*.a
-*.class
-*.jar
 __pycache__
 
 # tessdata
@@ -118,3 +105,7 @@ times.txt
 
 /*.snap
 /*_source.tar.bz2
+
+/.libs/libtesseract.a
+/.libs/libtesseract.so.5.0.0
+
